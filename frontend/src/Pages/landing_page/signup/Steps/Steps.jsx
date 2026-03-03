@@ -47,7 +47,7 @@ function Steps() {
                     </span>
                 </h2>
                 <p className="text-[var(--text-muted)] text-[15px] mt-3">
-                    With MoneyDock — completely online, 100% paperless
+                    With InvestHub — completely online, 100% paperless
                 </p>
             </div>
 

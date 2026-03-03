@@ -22,7 +22,7 @@ const Hero = () => {
 
             {/* Heading */}
             <h1 className="text-4xl md:text-[54px] font-bold text-[var(--text-primary)] mb-5 tracking-tight leading-tight transition-colors duration-300">
-                MoneyDock{' '}
+                InvestHub{' '}
                 <span className="bg-gradient-to-r from-[var(--accent-primary)] via-purple-400 to-pink-400 bg-clip-text text-transparent">
                     Products
                 </span>

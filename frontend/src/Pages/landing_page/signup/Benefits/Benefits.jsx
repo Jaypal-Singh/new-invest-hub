@@ -31,7 +31,7 @@ const benefitItems = [
     },
     {
         icon: Network,
-        title: 'The MoneyDock universe',
+        title: 'The InvestHub universe',
         desc: 'More than just an app — gain free access to the entire ecosystem of our partner products.',
         color: 'text-orange-400',
         bg: 'from-orange-500/15 to-orange-500/5',
@@ -49,7 +49,7 @@ function Benefits() {
                 <h2 className="text-3xl md:text-[36px] font-bold text-[var(--text-primary)] tracking-tight leading-tight transition-colors duration-300">
                     Benefits of opening a{' '}
                     <span className="bg-gradient-to-r from-[var(--accent-primary)] to-purple-400 bg-clip-text text-transparent">
-                        MoneyDock
+                        InvestHub
                     </span>{' '}
                     demat account
                 </h2>

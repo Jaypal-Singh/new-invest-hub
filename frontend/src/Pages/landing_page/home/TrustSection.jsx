@@ -27,7 +27,7 @@ const features = [
         border: 'border-emerald-500/20',
         iconColor: 'text-emerald-400',
         iconBg: 'bg-emerald-500/10 border-emerald-500/20',
-        title: 'The MoneyDock universe',
+        title: 'The InvestHub universe',
         desc: 'Not just an app — a whole ecosystem of fintech products that offer you tailored services for all your needs.',
     },
 ];

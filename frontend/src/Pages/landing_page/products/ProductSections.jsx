@@ -14,7 +14,7 @@ const products = [
         iconColor: 'text-blue-400',
         badge: 'Trading Platform',
         badgeColor: 'bg-blue-500/10 border-blue-500/20 text-blue-400',
-        name: 'MoneyDock Trade',
+        name: 'InvestHub Trade',
         tagline: 'Our ultra-fast flagship trading platform',
         desc: 'Lightning-fast order execution with live streaming market data, advanced charting tools, a clean elegant UI, and full F&O support. Available on web, Android, and iOS.',
         features: [
@@ -36,7 +36,7 @@ const products = [
         iconColor: 'text-purple-400',
         badge: 'Dashboard',
         badgeColor: 'bg-purple-500/10 border-purple-500/20 text-purple-400',
-        name: 'MoneyDock Console',
+        name: 'InvestHub Console',
         tagline: 'Your central account dashboard',
         desc: 'Track your entire portfolio in one place. Get in-depth P&L reports, tax summaries, fund statements, and beautiful visualisations of your investment journey.',
         features: [
@@ -57,7 +57,7 @@ const products = [
         iconColor: 'text-emerald-400',
         badge: 'Mutual Funds',
         badgeColor: 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400',
-        name: 'MoneyDock Funds',
+        name: 'InvestHub Funds',
         tagline: 'Commission-free direct mutual funds',
         desc: 'Invest in direct mutual funds online with ₹0 commission, delivered directly to your Demat account. Browse, compare, and invest in thousands of funds effortlessly.',
         features: [
@@ -78,7 +78,7 @@ const products = [
         iconColor: 'text-orange-400',
         badge: 'Developer API',
         badgeColor: 'bg-orange-500/10 border-orange-500/20 text-orange-400',
-        name: 'MoneyDock API',
+        name: 'InvestHub API',
         tagline: 'Build on top of our trading infrastructure',
         desc: 'Integrate live market data, execute trades, and build powerful fintech products with our clean HTTP/JSON APIs. Perfect for developers, algo traders, and startups.',
         features: [
@@ -99,7 +99,7 @@ const products = [
         iconColor: 'text-pink-400',
         badge: 'Education',
         badgeColor: 'bg-pink-500/10 border-pink-500/20 text-pink-400',
-        name: 'MoneyDock Learn',
+        name: 'InvestHub Learn',
         tagline: 'Stock market education for everyone',
         desc: 'An easy-to-grasp collection of stock market lessons with in-depth coverage and illustrations. Content is broken into bite-size modules to help you learn at your own pace.',
         features: [

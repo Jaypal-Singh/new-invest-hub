@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Twitter, Facebook, Instagram, Linkedin, Youtube, MessageCircle, Send } from "lucide-react";
-import logo from "../../assets/logo/moneydocklogofinal.png";
+import logo from "../../assets/logo/investHubLogo.png";
 
 const navColumns = [
   {
@@ -14,7 +14,7 @@ const navColumns = [
   },
   {
     heading: "Company",
-    links: ["About", "Philosophy", "Press & media", "Careers", "MoneyDock Cares (CSR)", "MoneyDock.tech", "Open source"],
+    links: ["About", "Philosophy", "Press & media", "Careers", "InvestHub Cares (CSR)", "InvestHub.tech", "Open source"],
   },
   {
     heading: "Quick links",
@@ -46,11 +46,11 @@ function Footer() {
           <div className="col-span-2 md:col-span-1">
             {/* Logo / Brand */}
             <Link to="/" className="flex items-center mb-4">
-              <img src={logo} alt="MoneyDock" className="h-auto w-48 object-contain" />
+              <img src={logo} alt="InvestHub" className="h-auto w-48 object-contain" />
             </Link>
 
             <p className="text-[12.5px] leading-relaxed text-[var(--text-muted)] mb-5">
-              © 2010 – 2025, MoneyDock Broking Ltd.<br />All rights reserved.
+              © 2010 – 2025, InvestHub Broking Ltd.<br />All rights reserved.
             </p>
 
             {/* Socials */}
@@ -85,10 +85,10 @@ function Footer() {
         {/* ── Legal section ── */}
         <div className="border-t border-[var(--border-primary)] py-8 space-y-3">
           {[
-            <>MoneyDock Broking Ltd.: Member of NSE, BSE &amp; MCX – SEBI Registration no.: INZ000031633. CDSL/NSDL Depository services – SEBI Registration no.: IN-DP-431-2019. Commodity trading through MoneyDock Commodities Pvt. Ltd. MCX: 46025; NSE-50001 – SEBI Registration no.: INZ000038238. Registered Address: #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru – 560078. For complaints: <Link to="#" className="text-[color:var(--accent-primary)] hover:underline no-underline">complaints@moneydock.com</Link>, for DP: <Link to="#" className="text-[color:var(--accent-primary)] hover:underline no-underline">dp@moneydock.com</Link>. Please read the Risk Disclosure Document as prescribed by SEBI.</>,
+            <>InvestHub Broking Ltd.: Member of NSE, BSE &amp; MCX – SEBI Registration no.: INZ000031633. CDSL/NSDL Depository services – SEBI Registration no.: IN-DP-431-2019. Commodity trading through InvestHub Commodities Pvt. Ltd. MCX: 46025; NSE-50001 – SEBI Registration no.: INZ000038238. Registered Address: #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru – 560078. For complaints: <Link to="#" className="text-[color:var(--accent-primary)] hover:underline no-underline">complaints@investhub.com</Link>, for DP: <Link to="#" className="text-[color:var(--accent-primary)] hover:underline no-underline">dp@investhub.com</Link>. Please read the Risk Disclosure Document as prescribed by SEBI.</>,
             <>To file a complaint on <Link to="#" className="text-[color:var(--accent-primary)] hover:underline no-underline">SEBI SCORES</Link>: Register on SCORES portal. Mandatory details: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective communication, speedy grievance redressal.</>,
             "Investments in securities market are subject to market risks; read all related documents carefully before investing.",
-            <>Prevent unauthorised transactions — update your mobile/email with your broker. Receive transaction info from Exchange on your mobile/email at end of day. KYC is a one-time exercise across all SEBI registered intermediaries. As a business, we don't give stock tips and haven't authorised anyone to trade on behalf of others. If you find anyone claiming to be part of MoneyDock offering such services, please <Link to="#" className="text-[color:var(--accent-primary)] hover:underline no-underline">create a ticket here</Link>.</>,
+            <>Prevent unauthorised transactions — update your mobile/email with your broker. Receive transaction info from Exchange on your mobile/email at end of day. KYC is a one-time exercise across all SEBI registered intermediaries. As a business, we don't give stock tips and haven't authorised anyone to trade on behalf of others. If you find anyone claiming to be part of InvestHub offering such services, please <Link to="#" className="text-[color:var(--accent-primary)] hover:underline no-underline">create a ticket here</Link>.</>,
           ].map((text, i) => (
             <p key={i} className="text-[var(--text-muted)] text-[11.5px] leading-relaxed">
               {text}

@@ -27,7 +27,7 @@ const Team = () => {
                     <span className="bg-gradient-to-r from-[var(--accent-primary)] to-purple-400 bg-clip-text text-transparent">
                         people
                     </span>{' '}
-                    behind MoneyDock
+                    behind InvestHub
                 </h2>
             </div>
 
@@ -53,7 +53,7 @@ const Team = () => {
                         <p className="text-sm text-[var(--accent-primary)] font-semibold">Founder & CEO</p>
                     </div>
                     <p className="text-[14px] text-[var(--text-secondary)] leading-relaxed transition-colors duration-300">
-                        Nithin bootstrapped and founded MoneyDock in 2010 to overcome the hurdles he faced during his decade-long stint as a trader. Today, MoneyDock has changed the landscape of the Indian broking industry.
+                        Nithin bootstrapped and founded InvestHub in 2010 to overcome the hurdles he faced during his decade-long stint as a trader. Today, InvestHub has changed the landscape of the Indian broking industry.
                     </p>
                     <p className="text-[14px] text-[var(--text-secondary)] leading-relaxed transition-colors duration-300">
                         He is a member of the SEBI Secondary Market Advisory Committee (SMAC) and the Market Data Advisory Committee (MDAC). Playing basketball is his zen.

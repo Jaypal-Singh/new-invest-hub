@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTheme } from '../../context/ThemeContext';
 import { Sun, Moon, Monitor, Menu, X, ArrowUpRight } from 'lucide-react';
-import logo from '../../assets/logo/moneydocklogofinal.png';
+import logo from '../../assets/logo/investHubLogo.png';
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -39,7 +39,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center flex-shrink-0">
           <img
             src={logo}
-            alt="MoneyDock"
+            alt="InvestHub"
             className="h-8 md:h-9 w-auto object-contain"
           />
         </Link>

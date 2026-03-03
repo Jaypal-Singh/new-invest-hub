@@ -6,10 +6,10 @@ const faqs = [
         icon: HelpCircle,
         color: 'text-blue-400',
         iconBg: 'bg-blue-500/10 border-blue-500/20',
-        title: "What is a MoneyDock account?",
+        title: "What is a InvestHub account?",
         answer: (
             <p className="text-[14px] text-[var(--text-secondary)] leading-relaxed">
-                A MoneyDock account is a combined demat and trading account that allows investors to buy, sell, and hold securities digitally — all in one place.
+                A InvestHub account is a combined demat and trading account that allows investors to buy, sell, and hold securities digitally — all in one place.
             </p>
         ),
     },
@@ -20,7 +20,7 @@ const faqs = [
         title: "What documents are required to open a demat account?",
         answer: (
             <div className="space-y-2">
-                <p className="text-[14px] text-[var(--text-secondary)] leading-relaxed mb-3">You'll need the following to open a MoneyDock account online:</p>
+                <p className="text-[14px] text-[var(--text-secondary)] leading-relaxed mb-3">You'll need the following to open a InvestHub account online:</p>
                 <ul className="space-y-2">
                     {['PAN number', 'Aadhaar Card (linked with a phone number for OTP)', 'Cancelled cheque or bank account statement', 'Income proof (only for F&O trading)'].map(doc => (
                         <li key={doc} className="flex items-start gap-2 text-[14px] text-[var(--text-secondary)]">
@@ -36,10 +36,10 @@ const faqs = [
         icon: CheckCircle2,
         color: 'text-emerald-400',
         iconBg: 'bg-emerald-500/10 border-emerald-500/20',
-        title: "Is MoneyDock account opening free?",
+        title: "Is InvestHub account opening free?",
         answer: (
             <p className="text-[14px] text-[var(--text-secondary)] leading-relaxed">
-                Yes, 100% free. There are <span className="text-emerald-400 font-semibold">no charges</span> for opening an online individual account with MoneyDock.
+                Yes, 100% free. There are <span className="text-emerald-400 font-semibold">no charges</span> for opening an online individual account with InvestHub.
             </p>
         ),
     },
@@ -74,7 +74,7 @@ const faqs = [
         title: "Can I open a demat account without a bank account?",
         answer: (
             <p className="text-[14px] text-[var(--text-secondary)] leading-relaxed">
-                You must have a bank account in your name. If UPI verification passes, no additional proof is needed. Otherwise, provide a cancelled cheque or bank statement to link your bank to MoneyDock.
+                You must have a bank account in your name. If UPI verification passes, no additional proof is needed. Otherwise, provide a cancelled cheque or bank statement to link your bank to InvestHub.
             </p>
         ),
     },
@@ -137,7 +137,7 @@ function FAQs() {
                         questions
                     </span>
                 </h2>
-                <p className="text-[15px] text-[var(--text-muted)] mt-2">Everything you need to know about opening a MoneyDock account.</p>
+                <p className="text-[15px] text-[var(--text-muted)] mt-2">Everything you need to know about opening a InvestHub account.</p>
             </div>
 
             {/* Accordion */}

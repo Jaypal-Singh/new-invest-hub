@@ -49,7 +49,7 @@ function InvestmentOptions() {
             <h2 className="mt-4 mb-12 text-[1.8rem] font-bold text-[var(--text-primary)] tracking-tight">
                 Investment options with{' '}
                 <span className="bg-gradient-to-r from-[var(--accent-primary)] to-purple-400 bg-clip-text text-transparent">
-                    MoneyDock
+                    InvestHub
                 </span>
             </h2>
 

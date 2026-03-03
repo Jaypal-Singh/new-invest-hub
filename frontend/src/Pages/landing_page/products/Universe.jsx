@@ -21,7 +21,7 @@ const Universe = () => {
             <p className="text-center text-[var(--text-muted)] text-[14px] mb-16 transition-colors duration-300">
                 Want to know more about our technology stack?{' '}
                 <a href="#" className="inline-flex items-center gap-1 text-[color:var(--accent-primary)] hover:opacity-80 font-medium">
-                    Check out the MoneyDock tech blog <Globe size={13} />
+                    Check out the InvestHub tech blog <Globe size={13} />
                 </a>
             </p>
 
@@ -32,7 +32,7 @@ const Universe = () => {
                     <span className="text-xs font-semibold text-[var(--accent-primary)] uppercase tracking-wider">Ecosystem</span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-[var(--text-primary)] mb-4 tracking-tight transition-colors duration-300">
-                    The MoneyDock{' '}
+                    The InvestHub{' '}
                     <span className="bg-gradient-to-r from-[var(--accent-primary)] to-purple-400 bg-clip-text text-transparent">
                         Universe
                     </span>

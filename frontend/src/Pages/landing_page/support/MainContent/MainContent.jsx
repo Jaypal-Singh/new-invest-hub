@@ -10,7 +10,7 @@ const categories = [
         links: ['Resident individual', 'Minor', 'Non Resident Indian (NRI)', 'Company, Partnership, HUF and LLP', 'Glossary']
     },
     {
-        icon: UserCircle, label: 'Your MoneyDock Account', color: 'text-purple-400', iconBg: 'bg-purple-500/10 border-purple-500/20',
+        icon: UserCircle, label: 'Your InvestHub Account', color: 'text-purple-400', iconBg: 'bg-purple-500/10 border-purple-500/20',
         links: ['Your Profile', 'Account modification', 'Client Master Report (CMR) and DP', 'Nomination', 'Transfer and conversion of securities']
     },
     {
@@ -26,7 +26,7 @@ const categories = [
         links: ['Portfolio', 'Corporate actions', 'Funds statement', 'Reports', 'Profile', 'Segments']
     },
     {
-        icon: PiggyBank, label: 'MoneyDock Funds', color: 'text-pink-400', iconBg: 'bg-pink-500/10 border-pink-500/20',
+        icon: PiggyBank, label: 'InvestHub Funds', color: 'text-pink-400', iconBg: 'bg-pink-500/10 border-pink-500/20',
         links: ['Mutual funds', 'National Pension Scheme (NPS)', 'Fixed Deposit (FD)', 'Features', 'Payments and Orders', 'General']
     },
 ];

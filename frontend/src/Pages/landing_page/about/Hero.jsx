@@ -55,7 +55,7 @@ const Hero = () => {
                         <span className="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-[var(--accent-primary)]/15 border border-[var(--accent-primary)]/30 flex items-center justify-center">
                             <span className="w-1.5 h-1.5 rounded-full bg-[var(--accent-primary)]" />
                         </span>
-                        We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company MoneyDock, a combination of Zero and "Rodha", the Sanskrit word for barrier.
+                        We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company InvestHub, a combination of Zero and "Rodha", the Sanskrit word for barrier.
                     </p>
                     <p className="flex gap-3">
                         <span className="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-[var(--accent-primary)]/15 border border-[var(--accent-primary)]/30 flex items-center justify-center">

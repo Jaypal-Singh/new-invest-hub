@@ -24,7 +24,7 @@ function OpenAccount() {
             <h2 className="text-4xl md:text-5xl font-bold text-[var(--text-primary)] mb-5 tracking-tight leading-tight transition-colors duration-300">
                 Open a{' '}
                 <span className="bg-gradient-to-r from-[var(--accent-primary)] via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    MoneyDock
+                    InvestHub
                 </span>{' '}
                 account
             </h2>
