@@ -17,7 +17,7 @@ export default defineConfig({
         description: 'Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.',
         theme_color: '#0a0e17',
         background_color: '#0a0e17',
-        display: 'standalone',
+        display: 'fullscreen',
         orientation: 'portrait',
         scope: '/',
         start_url: '/',
