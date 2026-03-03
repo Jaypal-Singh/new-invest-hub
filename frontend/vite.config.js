@@ -15,7 +15,7 @@ export default defineConfig({
         name: 'InvestHub - Online Trading Platform',
         short_name: 'InvestHub',
         description: 'Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.',
-        theme_color: '#387ed1',
+        theme_color: '#0a0e17',
         background_color: '#0a0e17',
         display: 'standalone',
         orientation: 'portrait',
