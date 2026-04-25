@@ -23,6 +23,12 @@ const MobileStockDetails = () => {
 
     const fromOptionChain = location.state?.fromOptionChain || false;
 
+    // Safely parse numeric values to prevent .toFixed() crashes
+    const safePrice = stock.price != null ? (typeof stock.price === 'number' ? stock.price : parseFloat(String(stock.price).replace(/,/g, ''))) || 0 : 0;
+    const safeChange = stock.change != null ? (typeof stock.change === 'number' ? stock.change : parseFloat(String(stock.change).replace(/,/g, ''))) || 0 : 0;
+    const safePercent = stock.percent != null ? (typeof stock.percent === 'number' ? stock.percent : parseFloat(String(stock.percent).replace(/,/g, ''))) || 0 : 0;
+    const safeIsUp = stock.isUp != null ? stock.isUp : safeChange >= 0;
+
     const [timeRange, setTimeRange] = useState('1m');
     const [activeRatioPage, setActiveRatioPage] = useState(0);
     const [isMarketDepthOpen, setIsMarketDepthOpen] = useState(false);
@@ -158,10 +164,10 @@ const MobileStockDetails = () => {
                 <div className="p-4">
                     <div className="flex justify-between items-start mb-4">
                         <div>
-                            <div className="text-3xl font-bold text-[var(--text-primary)] mb-1">₹{stock.price}</div>
-                            <div className={`text-xs font-bold flex items-center gap-1 ${stock.isUp ? 'text-[#089981]' : 'text-[#f23645]'}`}>
-                                {stock.change.toFixed(2)} ({stock.percent})
-                                {stock.isUp ? <ArrowUpRight size={14} /> : <ArrowDownRight size={14} />}
+                            <div className="text-3xl font-bold text-[var(--text-primary)] mb-1">₹{safePrice.toFixed(2)}</div>
+                            <div className={`text-xs font-bold flex items-center gap-1 ${safeIsUp ? 'text-[#089981]' : 'text-[#f23645]'}`}>
+                                {safeChange.toFixed(2)} ({safePercent.toFixed(2)}%)
+                                {safeIsUp ? <ArrowUpRight size={14} /> : <ArrowDownRight size={14} />}
                                 <span className="text-[var(--text-muted)] ml-1 font-medium">Today</span>
                             </div>
                         </div>
