@@ -111,6 +111,8 @@ function Footer() {
           ))}
         </div>
       </div>
+
+      <p className="text-muted text-[12px] font-medium">Created by Manthan and jaypal</p>
     </footer>
   );
 }
