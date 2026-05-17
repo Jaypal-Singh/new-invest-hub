@@ -112,7 +112,7 @@ function Footer() {
         </div>
       </div>
 
-      <p className="text-muted text-[12px] font-medium">Created by Manthan and jaypal</p>
+      <p className="text-[var(--text-muted)] text-[12px] font-medium text-center pb-4">Created by Manthan and Jaypal</p>
     </footer>
   );
 }
